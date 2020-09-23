@@ -601,6 +601,142 @@ section {
   transition: .5s;
 }
 
+/*resources section */
+#resources {
+  padding: 80px 0;
+}
+
+#resources .about-content {
+  padding-top: 40px;
+}
+
+#resources .about-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#resources .about-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#resources .about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#resources .about-content ul li {
+  padding-bottom: 10px;
+}
+
+#resources .about-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: pink;
+}
+
+#resources .about-img {
+  position: right;
+  margin: 30px 30px 30px 30px;
+}
+
+#resources .about-img img {
+  width: 100%;
+  border: 8px solid #ffe1df;
+  transition: .5s;
+}
+
+#resources .about-img img:hover {
+  width: 100%;
+  transform: scale(1.03);
+}
+
+#resources .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+#resource .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #eba2a1;
+  transition: .5s;
+}
+
+/* Services Section
+--------------------------------*/
+#services {
+  padding: 60px 0 40px 0;
+}
+
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#services .box:hover {
+  transform: scale(1.1);
+}
+
+#services .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#services .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+#services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: #111;
+}
+
+#services .box:hover .title a {
+  color: pink
+  ;
+}
+
+#services .description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
 /* Services Section
 --------------------------------*/
 #services {
