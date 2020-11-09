@@ -9,9 +9,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
+  background: #fff; /* change this to color i want */
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Krub', sans-serif;
   background-image: url("intro-bg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -520,7 +520,7 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-  background: #f5f8fd;
+  background: rgb(216, 236, 240); /* ops */
 }
 
 /* About Us Section
@@ -1154,7 +1154,7 @@ section {
 }
 
 #team .member:hover .member-info-content {
-  height: 80px;
+  height: 220px;
 }
 
 #team .member h4 {
@@ -1342,6 +1342,7 @@ section {
 #faq {
   padding: 60px 0;
   overflow: hidden;
+ 
 }
 
 #faq #faq-list {
@@ -1523,6 +1524,41 @@ section {
     position: static;
     margin-top: 30px;
   }
+}
+
+/* Clients Section
+--------------------------------*/
+#clients {
+  padding: 60px 0;
+}
+
+#clients img {
+  max-width: 80%;
+  opacity: 0.5;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#clients img:hover {
+  opacity: 1;
+}
+
+#clients .owl-nav, #clients .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+#clients .owl-dot.active {
+  background-color: #1bb1dc;
 }
 
 /*--------------------------------------------------------------
@@ -1762,7 +1798,7 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #535074;
+  color: #3c4779;
   font-size: 15px;
 }
 
@@ -1770,7 +1806,7 @@ section {
   text-align: center;
   font-size: 14px;
   padding-top: 4px;
-  color: #8582a8;
+  color: #3c4779;
 }
 
 #footer .credits a {

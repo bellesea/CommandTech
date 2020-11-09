@@ -190,10 +190,11 @@
   });
 
   // Clients carousel (uses the Owl Carousel library)
+  
   $(".clients-carousel").owlCarousel({
     autoplay: true,
     dots: true,
-    loop: true,
+    loop: false, //was true, i changed to false
     responsive: {
       0: {
         items: 2
@@ -205,7 +206,7 @@
         items: 6
       }
     }
-  });
+  }); 
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
@@ -214,6 +215,7 @@
     loop: true,
     items: 1
   });
+
 
   // Init AOS
   function aos_init() {
