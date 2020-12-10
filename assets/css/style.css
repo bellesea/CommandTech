@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   background: #fff; /* change this to color i want */
   color: #444;
@@ -177,6 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
+
 
 #header .logo {
   font-size: 36px;
@@ -857,7 +859,8 @@ section {
 #call-to-action {
   background: #2d2b46;
   background-size: cover;
-  padding: 40px 0;
+  padding: 20px 0;
+  margin-top: 120px;
 }
 
 #call-to-action .cta-title {
