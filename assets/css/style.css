@@ -11,7 +11,7 @@
 
 body {
   background: #fff; /* change this to color i want */
-  color: #444;
+  color: #2B257E;
   font-family: 'Krub', sans-serif;
   background-image: url("intro-bg");
   background-repeat: no-repeat;
@@ -19,12 +19,12 @@ body {
 }
 
 a {
-  color: pink;
+  color: #FF9B9A;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: pink;
+  color: #FF9B9A;
   outline: none;
   text-decoration: none;
 }
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: pink;
+  background: #FF9B9A;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid pink;
+  border-top: 6px solid #FF9B9A;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a {
-  color: #413e66;
+  color: #2B257E;
   padding-left: 20px;
   display: inline-block;
   line-height: 1px;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: pink;
+  color: #FF9B9A;
 }
 
 #topbar .social-links a:first-child {
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #413e66;
+  color: #2B257E;
 }
 
 #header .logo img {
@@ -232,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #2B257E;
   padding: 10px 0;
   transition: 0.3s;
   font-size: 14px;
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav a:hover, .main-nav .active > a, .main-nav li:hover > a {
-  color: pink;
+  color: #FF9B9A;
   text-decoration: none;
 }
 
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-nav .drop-down ul a:hover, .main-nav .drop-down ul .active > a, .main-nav .drop-down ul li:hover > a {
-  color: pink;
+  color: #FF9B9A;
 }
 
 .main-nav .drop-down > a:after {
@@ -339,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: pink;
+  color: #FF9B9A;
   text-decoration: none;
 }
 
@@ -450,14 +450,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .intro-info h2 {
-  color: #413e66;
+  color: #2B257E;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #hero .intro-info h2 span {
-  color: pink;
+  color: #FF9B9A;
 }
 
 @media (max-width: 767px) {
@@ -478,12 +478,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #413e66;
+  background: #2B257E;
   color: #fff;
 }
 
 #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
-  background: pink;
+  background: #FF9B9A;
 }
 
 /*--------------------------------------------------------------
@@ -497,7 +497,7 @@ section {
 --------------------------------*/
 .section-header h3 {
   font-size: 36px;
-  color: #413e66;
+  color: #2B257E;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -536,7 +536,7 @@ section {
 }
 
 #about .about-content h2 {
-  color: #413e66;
+  color: #2B257E;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -560,7 +560,7 @@ section {
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: pink;
+  color: #FF9B9A;
 }
 
 #about .about-img {
@@ -613,7 +613,7 @@ section {
 }
 
 #resources .about-content h2 {
-  color: #413e66;
+  color: #2B257E;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -637,7 +637,7 @@ section {
 #resources .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: pink;
+  color: #FF9B9A;
 }
 
 #resources .about-img {
@@ -724,11 +724,11 @@ section {
 }
 
 #services .title a {
-  color: #111;
+  color: #2B257E;
 }
 
 #services .box:hover .title a {
-  color: pink
+  color: #FF9B9A
   ;
 }
 
@@ -783,11 +783,11 @@ section {
 }
 
 #services .title a {
-  color: #111;
+  color: #2B257E;
 }
 
 #services .box:hover .title a {
-  color: pink
+  color: #FF9B9A
   ;
 }
 
@@ -824,7 +824,7 @@ section {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
-  color: #413e66;
+  color: #2B257E;
   margin-bottom: 5px;
 }
 
@@ -851,7 +851,7 @@ section {
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color:pink;
+  color:#FF9B9A;
 }
 
 /* Call To Action Section
@@ -896,8 +896,8 @@ section {
 }
 
 #call-to-action .cta-btn:hover {
-  background: pink;
-  border: 3px solid pink;
+  background: #FF9B9A;
+  border: 3px solid #FF9B9A;
 }
 
 /* Features Section
@@ -933,13 +933,13 @@ section {
   padding: 6px 10px;
   font-size: 16px;
   line-height: 20px;
-  color: #413e66;
+  color: #2B257E;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: pink;
+  color: #FF9B9A;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -1013,7 +1013,7 @@ section {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: pink;
+  background: #FF9B9A;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -1025,7 +1025,7 @@ section {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: pink;
+  background: #FF9B9A;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i, #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
@@ -1074,7 +1074,7 @@ section {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #2B257E;
   margin-left: 140px;
 }
 
@@ -1117,7 +1117,7 @@ section {
 }
 
 #testimonials .owl-dot.active {
-  background-color: pink;
+  background-color: #FF9B9A;
 }
 
 /* Team Section
@@ -1224,7 +1224,7 @@ section {
 }
 
 #clients .owl-dot.active {
-  background-color: pink;
+  background-color: #FF9B9A;
 }
 
 /* Pricing Section
@@ -1261,7 +1261,7 @@ section {
   left: 0;
   width: 0%;
   height: 5px;
-  background-color: pink;
+  background-color: #FF9B9A;
   transition: 0.5s;
 }
 
@@ -1294,7 +1294,7 @@ section {
 #pricing .card .list-group-item {
   border: 0px;
   padding: 6px;
-  color: #413e66;
+  color: #2B257E;
   font-weight: 300;
 }
 
@@ -1332,12 +1332,12 @@ section {
   letter-spacing: 1px;
   border-radius: 3px;
   display: inline-block;
-  background: pink;
+  background: #FF9B9A;
   color: #fff;
 }
 
 #pricing .card .btn:hover {
-  background: pink;
+  background: #FF9B9A;
 }
 
 /* Frequently Asked Questions Section
@@ -1389,7 +1389,7 @@ section {
 }
 
 #faq #faq-list a.collapse {
-  color: pink;
+  color: #FF9B9A;
 }
 
 #faq #faq-list a.collapsed {
@@ -1473,7 +1473,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: pink !important;
+  background-color: #FF9B9A !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1588,7 +1588,7 @@ section {
   padding: 2px 0 2px 0;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
-  color: #413e66;
+  color: #2B257E;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1605,7 +1605,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: pink;
+  background: #FF9B9A;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1618,7 +1618,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: pink;
+  background: #FF9B9A;
   color: #fff;
 }
 
@@ -1631,7 +1631,7 @@ section {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #413e66;
+  color: #2B257E;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1660,7 +1660,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: pink;
+  color: #FF9B9A;
 }
 
 #footer .footer-top .footer-contact {
@@ -1683,8 +1683,8 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: pink;
-  border: 1px solid pink;
+  background: #FF9B9A;
+  border: 1px solid #FF9B9A;
   width: 35%;
   padding: 6px 0;
   text-align: center;
@@ -1694,7 +1694,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background:pink;
+  background:#FF9B9A;
 }
 
 #footer .php-email-form .validate {
@@ -1755,7 +1755,7 @@ section {
 }
 
 #footer .php-email-form input::focus, #footer .php-email-form textarea::focus {
-  background-color: pink;
+  background-color: #FF9B9A;
 }
 
 #footer .php-email-form input {
@@ -1776,7 +1776,7 @@ section {
 }
 
 #footer .php-email-form button[type="submit"]:hover {
-  background: pink;
+  background: #FF9B9A;
   cursor: pointer;
 }
 
@@ -1813,9 +1813,9 @@ section {
 }
 
 #footer .credits a {
-  color: pink;
+  color: #FF9B9A;
 }
 
 #footer .credits a:hover {
-  color: pink;
+  color: #FF9B9A;
 }
