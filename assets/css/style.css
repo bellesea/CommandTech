@@ -1819,3 +1819,13 @@ section {
 #footer .credits a:hover {
   color: #FF9B9A;
 }
+
+/* March project schedule cards */
+
+#march {
+  background-color: #e0f2fc;
+}
+
+.card {
+  border-radius: 20px;
+}
