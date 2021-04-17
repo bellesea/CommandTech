@@ -12,7 +12,7 @@
 body {
   background: #fff; /* change this to color i want */
   color: #2B257E;
-  font-family: 'Krub', sans-serif;
+  font-family: font-family: -apple-system, BlinkMacSystemFont,'Krub', sans-serif;
   background-image: url("intro-bg");
   background-repeat: no-repeat;
   background-attachment: fixed;
